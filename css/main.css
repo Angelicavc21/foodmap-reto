@@ -1,0 +1,84 @@
+.bg {
+    background: rgb(48, 47, 47);
+  }
+  #loadPage {
+    height: 100vh;    
+    background: #333;
+    z-index: 1000;
+    color: #a62;
+    position: fixed;
+    outline: 1px solid red;
+    width: 100%;
+}
+
+#loadPage h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+/* EFECTO CIRCULAR QUE SIMULA LA ESPERA _____________ */
+.pre-load {
+  border: 6px solid #ccc;
+  border-top-color: rgb(218, 135, 53);
+  border-top-style: groove;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: absolute;
+  left: 45%;
+  top: 60%;   
+  -webkit-animation: girar 1.5s linear infinite;
+  -o-animation:  girar 1.5s linear infinite;
+  animation:  girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+  /*css de restaurant */
+  .word1, .word2 {
+    color: rgb(201, 111, 37);
+    font-size: 40px;
+    margin-bottom: -3rem;
+  }
+  .word2 {
+    font-size: 25px;
+    margin-bottom: 3.5rem;
+  }
+
+  .left {
+    border: 3px solid white;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+  #slider span {
+    top: -8px;
+  }
+
+  #map {
+    height: 150px;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+  }
+  #inputrest {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .img {
+    height: 100px;
+    margin-right: 1rem;
+  }
+  .img2 {
+    width: 150px;
+    height: 125px;
+    padding-top: 1rem;
+  
+  }
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link href="../css/main.css" rel="stylesheet">  
+    <title>Home</title>
+  </head>
+  <body class="bg">
+    <h1 class="text-center word1">Foodmap</h1>
+    <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+      <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-defaul" style="left: 0%">
+      </span>
+    </div>
+    <div class="left"></div>
+    <div id="map"></div>
+    <div class=" word1 ">
+      <h1 class="text-center word2">Comida cerca de ti</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <section>
+          <div class="input-group">
+            <span class="input-group-addon glyphicon glyphicon-search"></span>
+            <input type="text" class="form-control search" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status">
+          </div>
+          <select class="form-control select-control" id="food">
+            <option value="all">Tipo de Comida</option>
+            <option value="fish">Oriental</option>
+            <option value="meat">Polloss y Parrillas</option>
+            <option value="japanese">Marina</option>
+            <option value="fusion">italiana</option>
+          </select>
+        
+          <div class="container">
+            <div class="row">
+             
+          </div>
+          </div>
+        </section>
+      
+        <!-- Modal -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+         
+        </div>
+    </div>
+    
+    
+  <!-- jQuery library -->
+  <script src="http://maps.google.com/maps/api/js?sensor=false&callback=init"></script>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../js/restaurant.js"></script>
+  <script src="../js.app.js"></script>
+  <script src="../js.data.js"></script>
+
+  </body>
+</html>
