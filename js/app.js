@@ -1,8 +1,9 @@
 // efecto splash
-$(window).ready(function () {
-  $('#loadPage').delay(1000).fadeOut("slow");
-})
-
+$(document).ready(function() {
+  setTimeout (function() {
+        window.location.href = 'views/restaurant.html';
+  }, 3000);
+  });
 
 // Obteniendo información
 var container = $('.row');
