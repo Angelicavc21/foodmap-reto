@@ -1,5 +1,8 @@
 // efecto splash
-$('#splash-js').delay(2500).fadeOut('slow');
+$(window).ready(function () {
+  $('#loadPage').delay(1000).fadeOut("slow");
+})
+
 
 // Obteniendo información
 var container = $('.row');
