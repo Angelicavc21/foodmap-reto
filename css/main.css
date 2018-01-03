@@ -19,7 +19,7 @@
   -webkit-transform: translate(-50%, -50%);
 }
 
-/* EFECTO CIRCULAR QUE SIMULA LA ESPERA _____________ */
+/* EFECTO CIRCULAR QUE SIMULA LA ESPERA */
 .pre-load {
   border: 6px solid #ccc;
   border-top-color: rgb(218, 135, 53);
