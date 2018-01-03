@@ -1,14 +1,14 @@
 .bg {
     background: rgb(48, 47, 47);
-  }
-  #loadPage {
-    height: 100vh;    
-    background: #333;
-    z-index: 1000;
-    color: #a62;
-    position: fixed;
-    outline: 1px solid red;
-    width: 100%;
+}
+#loadPage {
+  height: 100vh;    
+  background: #333;
+  z-index: 1000;
+  color: #a62;
+  position: fixed;
+  outline: 1px solid red;
+  width: 100%;
 }
 
 #loadPage h1 {
@@ -71,14 +71,3 @@
     width: 90%;
     margin-left: 1rem;
   }
-  .img {
-    height: 100px;
-    margin-right: 1rem;
-  }
-  .img2 {
-    width: 150px;
-    height: 125px;
-    padding-top: 1rem;
-  
-  }
-  
